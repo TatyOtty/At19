@@ -1,0 +1,103 @@
+body {
+    /* Primeiro o gradiente (agora em sintaxe moderna) */
+    background: linear-gradient(to right, rgba(204, 204, 204, 0.5), rgba(0, 0, 0, 0.5)),
+                /* Depois a imagem de fundo */
+                url('abstrato.jpg') no-repeat center center fixed;
+    
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+}
+
+.pagina {
+    margin: 50px;
+    font-size: 5em;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url('abstrato.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+#titulo {
+    padding-left: 10px;
+}
+
+.conteudo {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+section {
+    background: -webkit-gradient(linear, left top, right top, from(magenta), to(#2989d9));
+    padding: 10px;
+    margin: 50px;
+}
+
+article {
+    margin: 0px 10px 10px 210px;
+    background-color: white;
+    border: 5px solid black;
+}
+
+nav {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+ul {
+    background-color: #000000;
+    padding: 6px;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a:link {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 10px 15px 10px;
+    background-color: #666666;
+    margin-bottom: 2px;
+    font: 14px verdana, arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+a:visited {
+    color: #ffffcc;
+}
+
+a:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+img {
+    width: 265px;
+    float: left;
+}
+
+footer {
+    margin: 50px;
+    background-color: blue;
+    color: white;
+}
+
+#textorodape {
+    text-align: center;
+    font-weight: bold;
+}
